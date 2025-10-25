@@ -8,6 +8,8 @@ Url:		https://github.com/mamolinux/system-monitoring-center
 Source0:  https://github.com/mamolinux/system-monitoring-center/archive/%{version}/%{name}-%{version}.tar.gz
 # archived
 #Source0:	https://github.com/hakandundar34coding/system-monitoring-center/archive/v%{version}/%{name}-%{version}.tar.gz
+
+BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:	gtk4
 BuildRequires:	meson
