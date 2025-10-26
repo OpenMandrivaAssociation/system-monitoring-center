@@ -16,10 +16,15 @@ BuildRequires:	meson
 BuildRequires:	ninja
 BuildRequires:	python3dist(setuptools)
 BuildRequires:	pkgconfig(python3)
+Requires: dmidecode
+Requires: hwdata
 Requires:	python-gi
 Requires:	python3dist(pycairo)
 Requires:	python3dist(pygobject)
 Requires:	typelib(Adw)
+Requires: typelib(GLib)
+Requires: typelib(GdkWayland)
+Requires: typelib(Pango)
 BuildArch:	noarch
 
 %description
