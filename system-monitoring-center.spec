@@ -1,6 +1,6 @@
 Summary:	Multi-featured system monitor
 Name:		system-monitoring-center
-Version:	2.26.1
+Version:	2.26.3
 Release:	1
 License:	GPLv3
 Group:		Monitoring
