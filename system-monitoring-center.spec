@@ -39,7 +39,7 @@ variables and system.
 %doc README.md
 %license LICENSE
 %{_bindir}/%{name}
-%{_datadir}/appdata/io.github.hakandundar34coding.%{name}.appdata.xml
+%{_datadir}/metainfo/io.github.hakandundar34coding.%{name}.appdata.xml
 %{_datadir}/applications/io.github.hakandundar34coding.%{name}.desktop
 %{_datadir}/%{name}/*
 %{_iconsdir}/hicolor/scalable/apps/io.github.hakandundar34coding.%{name}.svg
